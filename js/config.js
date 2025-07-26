@@ -8,7 +8,7 @@
 export const SUPABASE_URL = "https://ucgyrynczmagjzwdkgha.supabase.co";
 
 /** @type {string} Supabase anon/public nøgle */
-export const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6InVjZ3lyeW5jem1hZ2p6d2RrZ2hhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NTI4NzY2MDksImV4cCI6MjA2ODQ1MjYwOX0.pWv7L385SUs3jss2b4arfGkERZcgxbLT_AuuRq1vURg";
+export const SUPABASE_KEY = "sb_publishable_uIunJx8NJbyDEEQOvcpLuA_78fezE6L";
 
 // Multiplayer server konfiguration
 /** @type {string} WebSocket server URL for multiplayer */
@@ -38,4 +38,3 @@ export const DEBUG_CONFIG = {
     SHOW_SERVER_INFO: false,
     LOG_LEVEL: 'info' // 'debug' | 'info' | 'warn' | 'error'
 };
-
