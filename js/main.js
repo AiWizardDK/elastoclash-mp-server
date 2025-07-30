@@ -1,13 +1,17 @@
 import { Game } from './game.js';
 
-// Canvas-opsætning
-const canvas = document.getElementById('gameCanvas');
-if (!canvas) {
-    console.error('Error: Canvas element with ID "gameCanvas" not found.');
-    return;
+function initGame() {
+    // Canvas-opsætning
+    const canvas = document.getElementById('gameCanvas');
+    if (!canvas) {
+        console.error('Error: Canvas element with ID "gameCanvas" not found.');
+        return; // Now legal inside a function
+    }
+
+    const ctx = canvas.getContext('2d');
 }
 
-const ctx = canvas.getContext('2d');
+initGame(); // Call the initialization function
 if (!ctx) {
     console.error('Error: 2D rendering context could not be obtained from canvas.');
     return;
